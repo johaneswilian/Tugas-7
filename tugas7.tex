@@ -5,14 +5,19 @@
 \usepackage{graphicx}
 \usepackage{textcomp}
 \usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{pgf}
 
-\title{Ringkasan Pekerjaan pada Sistem Deteksi Intrusi Dalam Jaringan Ad-hoc}
-\author{\IEEEauthorblockN{mahasiswa Teknik Komputer}
-\IEEEauthorblockA{\textit{Fakultas Informatika}\\
-\textit{Intitut Teknologi Batam}\\
-Batam, Indonesia\\
-Email: johanwilian455@gmail.com}}
+\title{Sum up Work on Intrusion Detection System in Vehicular Ad-hoc Networks}
+\author{\IEEEauthorblockN{Johanes Wilian Ang}
+\IEEEauthorblockA{\textit{Fakultas Teknologi Informasi} \\
+\textit{Institut Teknologi Batam}\\
+Batam, Indonesia \\
+email: johanwilian455@gmail.com,}
+}
 
+\renewcommand{\IEEEkeywordsname}{Keywords}
 
 \begin{document}
 
@@ -22,17 +27,18 @@ Email: johanwilian455@gmail.com}}
 \end{abstract}
 
 \section{pendahuluan}
-    mendeteksi serangan lalu lintas jaringan, intrusi dan sebagainya.Saat ini, tantangan utama yang terkait dengan domain ini adalah untuk menjaga keamanan jaringan.
+    mendeteksi serangan lalu lintas jaringan, intrusi dan sebagainya.Saat ini, tantangan utama yang terkait dengan domain ini adalah untuk menjaga keamanan jaringan [1] \cite {aydin2009hybrid}.
     
     sistem deteksi intrusi (IDS) Untuk mendeteksi intrusi di VANET, pembelajaran mesin, dan pembelajaran algoritma diberbagai tingkatan.
     
     susunan makalah disusun pada bab 2 akan menjelaskan tentang jaringan Ad-hoc. Bagian 3, menyajikan detail latar belakang dan membahas tentang teknologi berbeda yang terkait dengan pembelajaran mesin dan itu digunakan di VANET. Bagian 4 membahas tentang teknik logika fuzzy pada VANET
 
 \section{Sistem Deteksi Intrusi}
-    Komunikasi kendaraan memiliki tujuan utama untuk mendeteksi berbagai serangan lalu lintas dan mencegahnya dengan menggunakan Intrusion Detection System (IDS) tiga utama: komponen yang ditunjukkan pada Gambar 1 seperti pengumpulan data, vektorisasi dan mesin klasifikasi. IDS juga termasuk satu alasan utama untuk mendeteksi serangan kendaraan dari sistem, yang diketahui atau tidak diketahui. Umumnya IDS tergantung pada beberapa komponen perangkat keras. Menjalankan perangkat keras seperti itu komponen membutuhkan perangkat lunak yang konsisten dan kuat [2] \cite{zhang2010research}.
+    Komunikasi kendaraan memiliki tujuan utama untuk mendeteksi berbagai serangan lalu lintas dan mencegahnya dengan menggunakan Intrusion Detection System (IDS) tiga utama: komponen yang ditunjukkan pada Gambar 1 seperti pengumpulan data, vektorisasi dan mesin klasifikasi. IDS juga termasuk satu alasan utama untuk mendeteksi serangan kendaraan dari sistem, yang diketahui atau tidak diketahui. Umumnya IDS tergantung pada beberapa komponen perangkat keras. Menjalankan perangkat keras seperti itu komponen membutuhkan perangkat lunak yang konsisten dan kuat [2] \cite {zhang2010research}.
+
 \begin{center}
-\includegraphics[width=.5\textwidth]{gambar/tugas7-1.PNG}
-\caption{gambar 1 komponen IDS}
+\includegraphics[width=.4\textwidth]{gambar/tugas7-1.PNG}
+
 \end{center}
 
     alat komunikasi memiliki tujuan utama untuk mendeteksi berbagai serangan lalu lintas dan mencegahnya dengan menggunakan Intrusion Detection System (IDS),
@@ -50,17 +56,17 @@ Email: johanwilian455@gmail.com}}
      Jenis IDS berdasarkan deteksi serangan yang banyak diketahui telah ditentukan sebelumnya tetapi gagal untuk mengidentifikasi serangan yang tidak diketahui. Serangan tidak dikenal dengan alarm palsu tinggi dideteksi dengan menggunakan pendekatan berbasis anomali \cite{aydin2009hybrid}.
      
 \section{Pekerjaan yang Berhubungan}
-    Gozde Karatas et. Al. [3] \cite{karatas2018neural} mengusulkan Deteksi Intrusi Sistem [IDS] untuk menganalisis kinerja fungsi pelatihan dari sistem. Sistem yang diusulkan didasarkan pada sistem saraf jaringan yang berisi 2 lapisan tersembunyi untuk mendeteksi intrusi jaringan. Untuk analisis kinerja, Piala KDD 99 kumpulan data digunakan.
+    Gozde Karatas et. Al. [3] \cite {karatas2018neural} mengusulkan Deteksi Intrusi Sistem [IDS] untuk menganalisis kinerja fungsi pelatihan dari sistem. Sistem yang diusulkan didasarkan pada sistem saraf jaringan yang berisi 2 lapisan tersembunyi untuk mendeteksi intrusi jaringan. Untuk analisis kinerja, Piala KDD 99 kumpulan data digunakan.
     
-    Akash Garg et. Al. [4] \cite{garg2016hybrid} mempresentasikan penggunaan berbasis penyalahgunaan atau IDS berbasis tanda tangan yang berfungsi saat data dikirim ke jaringan dan selanjutnya server memverifikasi data ini. Jika ada data kasar diperoleh, kemudian server membuang paket yang lain meneruskannya ke jaringan. Selanjutnya, data tiba di server diperiksa dengan menggunakan alat akurasi tinggi untuk mendeteksi paket jaringan dari database dan kemudian membuang paket jaringan lain itu akan memindahkan data ke sistem jaringan.
+    Akash Garg et. Al. [4] \cite {garg2016hybrid} mempresentasikan penggunaan berbasis penyalahgunaan atau IDS berbasis tanda tangan yang berfungsi saat data dikirim ke jaringan dan selanjutnya server memverifikasi data ini. Jika ada data kasar diperoleh, kemudian server membuang paket yang lain meneruskannya ke jaringan. Selanjutnya, data tiba di server diperiksa dengan menggunakan alat akurasi tinggi untuk mendeteksi paket jaringan dari database dan kemudian membuang paket jaringan lain itu akan memindahkan data ke sistem jaringan.
     
-    Dalam [5] \cite{gonccalves2019systematic}, disajikan studi tentang deteksi intrusi di VANET dan menganalisis solusi yang layak untuk berbagai jenis serangan seperti DOS, DDOS dll Tuan a Tang et. al [6] \cite{tang2016deep} memberikan deskripsi terperinci tentang jaringan yang ditentukan perangkat lunak sebagai solusi yang dipilih untuk mendeteksi intrusi di jaringan. Penulis terutama berfokus pada serangan DDoS di IDS untuk meningkatkan akurasi model NIDS yang diusulkan dengan menggunakan teknik pembelajaran mendalam, yang mendeteksi intrusi dan menganalisis model NIDS.
+    Dalam [5] \cite {gonccalves2019systematic}, disajikan studi tentang deteksi intrusi di VANET dan menganalisis solusi yang layak untuk berbagai jenis serangan seperti DOS, DDOS dll Tuan a Tang et. al [6] \cite{tang2016deep} memberikan deskripsi terperinci tentang jaringan yang ditentukan perangkat lunak sebagai solusi yang dipilih untuk mendeteksi intrusi di jaringan. Penulis terutama berfokus pada serangan DDoS di IDS untuk meningkatkan akurasi model NIDS yang diusulkan dengan menggunakan teknik pembelajaran mendalam, yang mendeteksi intrusi dan menganalisis model NIDS.
 
-    Konstantinos Pelechrinis et. Al. [7] \cite{pelechrinis2010denial} menyajikan detail ulasan tentang serangan jamming yang direkam di koran oleh tambahan menjelaskan berbagai teknik yang disarankan untuk mendeteksi keberadaan jammer. Akhirnya, pekerjaan itu memiliki meninjau mekanisme yang banyak, yang bermanfaat untuk melindungi jaringan dari berbagai serangan jamming.
+    Konstantinos Pelechrinis et. Al. [7] \cite {pelechrinis2010denial} menyajikan detail ulasan tentang serangan jamming yang direkam di koran oleh tambahan menjelaskan berbagai teknik yang disarankan untuk mendeteksi keberadaan jammer. Akhirnya, pekerjaan itu memiliki meninjau mekanisme yang banyak, yang bermanfaat untuk melindungi jaringan dari berbagai serangan jamming.
     
-    Bellardo et al [8] \cite{bellardo2003802}, mempresentasikan analisis eksperimental dari serangan tertentu dalam jaringan. Dalam penelitian ini diterapkan sistem untuk deteksi intrusi berdasarkan lapisan 802.11 MAC dan menganalisis efisiensi sistem
+    Bellardo et al [8] \cite {bellardo2003802}, mempresentasikan analisis eksperimental dari serangan tertentu dalam jaringan. Dalam penelitian ini diterapkan sistem untuk deteksi intrusi berdasarkan lapisan 802.11 MAC dan menganalisis efisiensi sistem
     
-    Ismail Butun, dkk. Al. [10]\cite{zhang2000intrusion} memberikan informasi tentang klasifikasi IDS, berisi klasifikasi rinci pf sistem deteksi intrusi sebagai persyaratan IDS, klasifikasi, pengambilan keputusan di IDS dan intrusi tanggapan. IDS yang diusulkan untuk Mobile Ah-hoc NETworks (MANET) disajikan dan penerapannya untuk jaringan sensor nirkabel dibahas.
+    Ismail Butun, dkk. Al. [10] \cite {zhang2000intrusion} memberikan informasi tentang klasifikasi IDS, berisi klasifikasi rinci pf sistem deteksi intrusi sebagai persyaratan IDS, klasifikasi, pengambilan keputusan di IDS dan intrusi tanggapan. IDS yang diusulkan untuk Mobile Ah-hoc NETworks (MANET) disajikan dan penerapannya untuk jaringan sensor nirkabel dibahas.
     
 \section{Kategori Serangan}
 Serangan lalu lintas dalam sistem komunikasi adalah
@@ -75,7 +81,7 @@ berbeda sebagai berikut:
 \end{itemize}
 
 Serangannya terdiri dari 22 jenis, masing-masing milik serangan
-kategori di atas [11] \cite{butun2013survey}.
+kategori di atas [11] \cite {butun2013survey}.
 
 \textbf{DOS}: Sebuah upaya untuk membuat layanan
 tidak tersedia untuk pengguna dikenal sebagai DoS (Denial of Service). Di
@@ -90,8 +96,7 @@ Ini adalah serangan lapisan fisik yang mengandung sub-tipe DDoS
 (U2R) adalah buffer overflow yang menyalin terlalu banyak data ke dalam
 buffer statis tanpa memeriksa apakah sudah diperbaiki dengan benar atau tidak.
 
-\textbf{R2L}: Serangan ini mempengaruhi besar
-jumlah jaringan/sistem di dunia setiap hari
+\textbf{R2L}: Serangan ini mempengaruhi besar jumlah jaringan/sistem di dunia setiap hari.
 
 \textbf{Probe}: Attacker tries to gain information about 
 the target host.
@@ -171,6 +176,29 @@ komunikasi seperti serangan DoS, serangan DDOS, Brute
 serangan paksa, dll.
 
 \section{Arsitektur yang DiUsulkan}
+
+\begin{center}
+    \centering
+    \includegraphics[width=.4\textwidth]{gambar/tugas7-2.PNG}
+    \end{center}
+    Gambar 2. Kerangka kerja Sistem Deteksi Intrusi di VANET
+    Sistem deteksi intrusi yang diusulkan dapat mendeteksi
+    intrusi menggunakan data audit jika ada perubahan data. Ini
+    melibatkan beberapa perilaku umum untuk deteksi intrusi
+    node. Data audit yang dikumpulkan terhadap intrusi diperiksa.
+    \begin{center}
+        \centering
+        \includegraphics[width=.4\textwidth]{gambar/a.PNG}
+        \end{center}
+        \begin{center}
+        \centering
+        \includegraphics[width=.4\textwidth]{gambar/b.PNG}
+        \end{center}
+        \begin{center}
+        \centering
+        \includegraphics[width=.4\textwidth]{gambar/c.PNG}
+        \end{center}
+        
 Operasi jaringan kendaraan harus menyediakan setiap node dengan
 teknik deteksi intrusi sehingga setiap node dapat
 berpartisipasi dalam deteksi intrusi. Node tetangga bisa
@@ -179,7 +207,7 @@ VANET berisi agen untuk mendeteksi intrusi setiap node
 dan agen-agen ini bertindak secara independen dan mengendalikan
 kegiatan komunikasi dalam jangkauan radio. Jika ada
 perubahan data lokal, agen dari node tetangga akan
-membantu mendeteksi penyusupan.\cite{shende2020long}
+membantu mendeteksi penyusupan.
 
 \section{Diskusi}
 Dalam mempelajari teknik deteksi intrusi yang berbeda
@@ -215,30 +243,6 @@ deteksi di VANET. Tujuan utama dari penelitian ini adalah untukbuat kumpulan dat
 algoritma lebih efisien. Semua kriteria ini harus
 dipertimbangkan untuk membuat kumpulan data yang besar, mengidentifikasi
 menyerang, dan membuat pesan.
-
-
-
-\begin{center}
-\includegraphics[width=.5\textwidth]{gambar/tugas7-2.PNG}
-\end{center}
-Gambar 2. Kerangka kerja Sistem Deteksi Intrusi di VANET
-Sistem deteksi intrusi yang diusulkan dapat mendeteksi
-intrusi menggunakan data audit jika ada perubahan data. Ini
-melibatkan beberapa perilaku umum untuk deteksi intrusi
-node. Data audit yang dikumpulkan terhadap intrusi diperiksa.
-
-\begin{center}
-\includegraphics[width=.5\textwidth]{gambar/a.PNG}
-\end{center}
-
-\begin{center}
-\includegraphics[width=.5\textwidth]{gambar/b.PNG}
-\end{center}
-
-\begin{center}
-\includegraphics[width=.5\textwidth]{gambar/c.PNG}
-\end{center}
-
 
 \bibliographystyle{IEEEtran}
 \bibliography{referensi.bib}
