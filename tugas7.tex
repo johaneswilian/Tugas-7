@@ -14,10 +14,12 @@
 \IEEEauthorblockA{\textit{Fakultas Teknologi Informasi} \\
 \textit{Institut Teknologi Batam}\\
 Batam, Indonesia \\
-email: johanwilian455@gmail.com,}
+email: johanwilian455@gmail.com}
 }
 
 \renewcommand{\IEEEkeywordsname}{Keywords}
+
+\graphicspath{{./gambar/}}
 
 \begin{document}
 
@@ -26,20 +28,27 @@ email: johanwilian455@gmail.com,}
     Deteksi intrusi dalam jaringan sangat pentinga karena sering terjadi serangan pada jaringan sehingga deteksi intrusi ini perlu diterapkan. Penyerang akan melakukan upaya untuk masuk ke sistem kita. Ada baiknya sistem kita terus dipantau dengan menggunakan intrusi untuk mendeteksi hal-hal yang mencurigakan, dan meresposnya ketika disusupi.
 \end{abstract}
 
+\begin{IEEEkeywords}
+    Intrusion Detection, NSL-KDD, DDoS, Deep Learning, Vehicular Communication, IDS, VANET, SVM
+\end{IEEEkeywords}
+
 \section{pendahuluan}
-    mendeteksi serangan lalu lintas jaringan, intrusi dan sebagainya.Saat ini, tantangan utama yang terkait dengan domain ini adalah untuk menjaga keamanan jaringan [1] \cite {aydin2009hybrid}.
+    mendeteksi serangan lalu lintas jaringan, intrusi dan sebagainya.Saat ini, tantangan utama yang terkait dengan domain ini adalah untuk menjaga keamanan jaringan \cite {aydin2009hybrid}.
     
     sistem deteksi intrusi (IDS) Untuk mendeteksi intrusi di VANET, pembelajaran mesin, dan pembelajaran algoritma diberbagai tingkatan.
     
     susunan makalah disusun pada bab 2 akan menjelaskan tentang jaringan Ad-hoc. Bagian 3, menyajikan detail latar belakang dan membahas tentang teknologi berbeda yang terkait dengan pembelajaran mesin dan itu digunakan di VANET. Bagian 4 membahas tentang teknik logika fuzzy pada VANET
 
 \section{Sistem Deteksi Intrusi}
-    Komunikasi kendaraan memiliki tujuan utama untuk mendeteksi berbagai serangan lalu lintas dan mencegahnya dengan menggunakan Intrusion Detection System (IDS) tiga utama: komponen yang ditunjukkan pada Gambar 1 seperti pengumpulan data, vektorisasi dan mesin klasifikasi. IDS juga termasuk satu alasan utama untuk mendeteksi serangan kendaraan dari sistem, yang diketahui atau tidak diketahui. Umumnya IDS tergantung pada beberapa komponen perangkat keras. Menjalankan perangkat keras seperti itu komponen membutuhkan perangkat lunak yang konsisten dan kuat [2] \cite {zhang2010research}.
+    Komunikasi kendaraan memiliki tujuan utama untuk mendeteksi berbagai serangan lalu lintas dan mencegahnya dengan menggunakan Intrusion Detection System (IDS) tiga utama: komponen yang ditunjukkan pada Gambar 1 seperti pengumpulan data, vektorisasi dan mesin klasifikasi. IDS juga termasuk satu alasan utama untuk mendeteksi serangan kendaraan dari sistem, yang diketahui atau tidak diketahui. Umumnya IDS tergantung pada beberapa komponen perangkat keras. Menjalankan perangkat keras seperti itu komponen membutuhkan perangkat lunak yang konsisten dan kuat \cite {zhang2010research}.
 
-\begin{center}
-\includegraphics[width=.4\textwidth]{gambar/tugas7-1.PNG}
 
-\end{center}
+\begin{figure}[htbp]
+    \centering
+    \def\svgwidth{\columnwidth}
+    \scalebox{0.9}{\input{gambar/main_components_of_ids.pdf_tex}}
+    \caption{Main components of IDS}
+\end{figure}
 
     alat komunikasi memiliki tujuan utama untuk mendeteksi berbagai serangan lalu lintas dan mencegahnya dengan menggunakan Intrusion Detection System (IDS),
     
@@ -177,16 +186,19 @@ serangan paksa, dll.
 
 \section{Arsitektur yang DiUsulkan}
 
-\begin{center}
+\begin{figure}
     \centering
-    \includegraphics[width=.4\textwidth]{gambar/tugas7-2.PNG}
-    \end{center}
-    Gambar 2. Kerangka kerja Sistem Deteksi Intrusi di VANET
+    \def\svgwidth{\columnwidth}
+    \scalebox{0.9}{\input{gambar/ids_vanet.pdf_tex}}
+    \caption{Kerangka kerja Sistem Deteksi Intrusi di VANET
     Sistem deteksi intrusi yang diusulkan dapat mendeteksi
     intrusi menggunakan data audit jika ada perubahan data. Ini
     melibatkan beberapa perilaku umum untuk deteksi intrusi
-    node. Data audit yang dikumpulkan terhadap intrusi diperiksa.
-    \begin{center}
+    node. Data audit yang dikumpulkan terhadap intrusi diperiksa.}
+\end{figure}
+
+
+\begin{center}
         \centering
         \includegraphics[width=.4\textwidth]{gambar/a.PNG}
         \end{center}
@@ -197,7 +209,7 @@ serangan paksa, dll.
         \begin{center}
         \centering
         \includegraphics[width=.4\textwidth]{gambar/c.PNG}
-        \end{center}
+\end{center}
         
 Operasi jaringan kendaraan harus menyediakan setiap node dengan
 teknik deteksi intrusi sehingga setiap node dapat
