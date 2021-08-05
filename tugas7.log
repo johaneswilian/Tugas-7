@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.7.21)  21 JUL 2021 22:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.9)  31 JUL 2021 09:28
 entering extended mode
-**"d:/ITEBA/Kuliah/TK3406 Jaringan Komputer Lanjut (Reg)/rubrik penilaian/Tugas 7/johaneswilian/Tugas-7/tugas7.tex"
-(d:/ITEBA/Kuliah/TK3406 Jaringan Komputer Lanjut (Reg)/rubrik penilaian/Tugas 7/johaneswilian/Tugas-7/tugas7.tex
-LaTeX2e <2021-06-01> patch level 1
-L3 programming layer <2021-07-12> (C:\Program Files\MiKTeX\tex/latex/ieeetran\IEEEtran.cls
+**"c:/Users/ASUS/Documents/percobaan/UAS Jarkom/tugas7.tex"
+(c:/Users/ASUS/Documents/percobaan/UAS Jarkom/tugas7.tex
+LaTeX2e <2021-06-01>
+L3 programming layer <2021-06-01> (C:\Program Files\MiKTeX\tex/latex/ieeetran\IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -378,26 +378,26 @@ Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
 )) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-07-12 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count296
 \l__pdf_internal_box=\box63
 ) (tugas7.aux)
 \openout1 = `tugas7.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
 
 -- Lines per column: 56 (exact).
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
@@ -419,64 +419,114 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Underfull \hbox (badness 4316) in paragraph at lines 31--33
-[]\OT1/ptm/b/it/9 Keywords\OT1/ptm/b/n/9 ---Intrusion De-tec-tion, NSL-KDD, DDoS, Deep
+
+LaTeX Warning: Citation `aydin2009hybrid' on page 1 undefined on input line 30.
+
+
+LaTeX Warning: Citation `zhang2010research' on page 1 undefined on input line 37.
+
+<gambar/tugas7-1.PNG, id=4, 234.27525pt x 71.66776pt>
+File: gambar/tugas7-1.PNG Graphic file (type png)
+<use gambar/tugas7-1.PNG>
+Package pdftex.def Info: gambar/tugas7-1.PNG  used on input line 40.
+(pdftex.def)             Requested size: 206.39685pt x 63.14107pt.
+
+LaTeX Warning: Citation `aydin2009hybrid' on page 1 undefined on input line 56.
+
+
+LaTeX Warning: Citation `karatas2018neural' on page 1 undefined on input line 59.
+
+
+LaTeX Warning: Citation `garg2016hybrid' on page 1 undefined on input line 61.
+
+
+LaTeX Warning: Citation `gonccalves2019systematic' on page 1 undefined on input line 63.
+
+
+LaTeX Warning: Citation `tang2016deep' on page 1 undefined on input line 63.
+
+
+LaTeX Warning: Citation `pelechrinis2010denial' on page 1 undefined on input line 65.
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 65--66
+[]\OT1/ptm/m/n/10 Konstantinos Pelechri-nis et. Al. [\OT1/ptm/b/n/10 ?\OT1/ptm/m/n/10 ] menya-jikan de-tail
  []
 
-(gambar/main_components_of_ids.pdf_tex
-<./gambar//main_components_of_ids.pdf, id=4, page=1, 1386.68062pt x 225.09094pt>
-File: ./gambar//main_components_of_ids.pdf Graphic file (type pdf)
-<use ./gambar//main_components_of_ids.pdf, page 1>
-Package pdftex.def Info: ./gambar//main_components_of_ids.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 252.0pt x 40.90273pt.
-) [1{C:/Users/muhammadoginh/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+[1{C:/Users/ASUS/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 
- <./gambar//main_components_of_ids.pdf>]
-Underfull \hbox (badness 2012) in paragraph at lines 81--83
+ <./gambar/tugas7-1.PNG>]
+
+LaTeX Warning: Citation `bellardo2003802' on page 2 undefined on input line 67.
+
+
+LaTeX Warning: Citation `zhang2000intrusion' on page 2 undefined on input line 69.
+
+
+Underfull \hbox (badness 2012) in paragraph at lines 72--74
 []\OT1/ptm/m/n/10 Serangan lalu lin-tas dalam sis-tem ko-mu-nikasi adalah
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 85.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 76.
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 85.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 76.
  (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+LaTeX Warning: Citation `butun2013survey' on page 2 undefined on input line 84.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
 []\OT1/ptm/b/n/10 R2L\OT1/ptm/m/n/10 : Seran-gan ini mem-pen-garuhi be-sar jum-lah
  []
 
 
-Underfull \hbox (badness 3849) in paragraph at lines 172--175
+LaTeX Warning: Citation `olusola2010analysis' on page 2 undefined on input line 113.
+
+
+LaTeX Warning: Citation `zhang2018intelligent' on page 2 undefined on input line 123.
+
+
+LaTeX Warning: Citation `sukumar2018network' on page 2 undefined on input line 128.
+
+
+LaTeX Warning: Citation `lahre2013analyze' on page 2 undefined on input line 139.
+
+
+LaTeX Warning: Citation `yong2019intrusion' on page 2 undefined on input line 147.
+
+
+Underfull \hbox (badness 3849) in paragraph at lines 163--166
 []\OT1/ptm/b/n/10 NSL-KDD:\OT1/ptm/m/n/10 Algoritme pem-be-la-jaran mesin pada KDD
  []
 
-[2] (gambar/ids_vanet.pdf_tex
-<./gambar//ids_vanet.pdf, id=22, page=1, 1640.37843pt x 1276.77pt>
-File: ./gambar//ids_vanet.pdf Graphic file (type pdf)
-<use ./gambar//ids_vanet.pdf, page 1>
-Package pdftex.def Info: ./gambar//ids_vanet.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 252.0pt x 196.12445pt.
-)
-<gambar/a.PNG, id=23, 521.5485pt x 301.125pt>
+[2]
+<gambar/tugas7-2.PNG, id=19, 253.54726pt x 204.765pt>
+File: gambar/tugas7-2.PNG Graphic file (type png)
+<use gambar/tugas7-2.PNG>
+Package pdftex.def Info: gambar/tugas7-2.PNG  used on input line 182.
+(pdftex.def)             Requested size: 206.39685pt x 166.69608pt.
+<gambar/a.PNG, id=20, 521.5485pt x 301.125pt>
 File: gambar/a.PNG Graphic file (type png)
 <use gambar/a.PNG>
-Package pdftex.def Info: gambar/a.PNG  used on input line 203.
+Package pdftex.def Info: gambar/a.PNG  used on input line 191.
 (pdftex.def)             Requested size: 206.39685pt x 119.16591pt.
-<gambar/b.PNG, id=25, 522.753pt x 64.44075pt>
+<gambar/b.PNG, id=21, 522.753pt x 64.44075pt>
 File: gambar/b.PNG Graphic file (type png)
 <use gambar/b.PNG>
-Package pdftex.def Info: gambar/b.PNG  used on input line 207.
+Package pdftex.def Info: gambar/b.PNG  used on input line 195.
 (pdftex.def)             Requested size: 206.39685pt x 25.4425pt.
-<gambar/c.PNG, id=26, 520.94624pt x 314.97675pt>
+<gambar/c.PNG, id=22, 520.94624pt x 314.97675pt>
 File: gambar/c.PNG Graphic file (type png)
 <use gambar/c.PNG>
-Package pdftex.def Info: gambar/c.PNG  used on input line 211.
+Package pdftex.def Info: gambar/c.PNG  used on input line 199.
 (pdftex.def)             Requested size: 206.39685pt x 124.79172pt.
- (tugas7.bbl [3 <./gambar//ids_vanet.pdf> <./gambar/a.PNG> <./gambar/b.PNG> <./gambar/c.PNG>])
+
+No file tugas7.bbl.
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -488,21 +538,23 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4
+[3 <./gambar/tugas7-2.PNG> <./gambar/a.PNG> <./gambar/b.PNG> <./gambar/c.PNG>] (tugas7.aux)
 
-] (tugas7.aux) ) 
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 11535 strings out of 478870
- 217785 string characters out of 2858669
- 508282 words of memory out of 3000000
- 29230 multiletter control sequences out of 15000+600000
- 436739 words of font info for 85 fonts, out of 8000000 for 9000
+ 11504 strings out of 478864
+ 216199 string characters out of 2858521
+ 510369 words of memory out of 3000000
+ 29217 multiletter control sequences out of 15000+600000
+ 435603 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,10n,69p,723b,351s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,8n,69p,675b,266s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tugas7.pdf (4 pages, 292488 bytes).
+Output written on tugas7.pdf (3 pages, 306024 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
+ 52 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
